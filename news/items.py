@@ -18,4 +18,5 @@ class NewsItem(scrapy.Item):
     img_url = scrapy.Field()
     url = scrapy.Field()
     type = scrapy.Field()
+    content = scrapy.Field()
     pass
